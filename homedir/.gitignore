@@ -1,0 +1,57 @@
+#########
+# MacOS #
+#########
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+############
+# Security #
+############
+id_rsa
+
+########
+# Node #
+########
+node_modules
+npm-debug.log
+
+########
+# Yarn #
+########
+yarn-debug.log
+yarn-error.log
+
+############
+# Coverage #
+############
+lib-cov
+coverage
+
+##########
+# Rollup #
+##########
+.rpt2_cache
+
+#######
+# env #
+#######
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
