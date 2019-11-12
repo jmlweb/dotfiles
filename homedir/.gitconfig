@@ -22,7 +22,6 @@
   statusHints = false
 [core]
   excludesfile = ~/.gitignore
-  attributesfile = ~/.gitattributes
   quotepath = false
   # line endings
   # force LF during add
