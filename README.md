@@ -9,3 +9,5 @@ Based on:
 
 1. `source mac-config.sh`
 2. `source mac-setup.sh`
+3. `source vscode-extensions.sh`
+4. Copy files inside "homedir" to replace your dotfiles
