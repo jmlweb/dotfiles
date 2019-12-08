@@ -46,6 +46,8 @@ packages=(
 
 npm install -g "${packages[@]}"
 
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --fontdir=/Library/Fonts"
+
 ########
 # YARN #
 ########
@@ -63,36 +65,46 @@ brew install homebrew/dupes/screen
 brew install homebrew/php/php55 --with-gmp
 
 # Core casks
-brew cask install --appdir="/Applications" alfred
-brew cask install --appdir="/Applications" appcleaner
-brew cask install --appdir="/Applications" audio-hijack
-brew cask install --appdir="/Applications" cakebrew
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" insomnia
-brew cask install --appdir="/Applications" iterm2
-brew cask install --appdir="/Applications" keka
-brew cask install --appdir="/Applications" macdown
-brew cask install --appdir="/Applications" monolingual
-brew cask install --appdir="/Applications" mounty
-brew cask install --appdir="/Applications" muzzle
-brew cask install --appdir="/Applications" notion
-brew cask install --appdir="/Applications" numi
-brew cask install --appdir="/Applications" paste
-brew cask install --appdir="/Applications" sip
-brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" spectacle
-brew cask install --appdir="/Applications" spotify
-brew cask install --appdir="/Applications" telegram
-brew cask install --appdir="/Applications" the-unarchiver
-brew cask install --appdir="/Applications" visual-studio-code
-brew cask install --appdir="/Applications" vlc
+brew cask install alfred
+brew cask install appcleaner
+brew cask install audio-hijack
+brew cask install cakebrew
+brew cask install calibre
+brew cask install couleurs
+brew cask install docker
+brew cask install figma
+brew cask install github-desktop
+brew cask install google-chrome
+brew cask install insomnia
+brew cask install iterm2
+brew cask install kap
+brew cask install keka
+brew cask install keycastr
+brew cask install kindle
+brew cask install lastpass
+brew cask install macdown
+brew cask install monolingual
+brew cask install mounty
+brew cask install muzzle
+brew cask install notion
+brew cask install numi
+brew cask install paste
+brew cask install rectangle
+brew cask install rocket
+brew cask install shuttle
+brew cask install sip
+brew cask install spotify
+brew cask install telegram
+brew cask install the-unarchiver
+brew cask install visual-studio-code
+brew cask install vlc
 
-tap "homebrew/cask-drivers"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
+brew tap "homebrew/cask-drivers"
+brew tap "homebrew/cask-fonts"
+brew tap "homebrew/cask-versions"
 
-cask "font-fira-code"
-cask "font-hack"
+brew cask install "font-fira-code"
+brew cask install "font-hack"
 
 # Remove outdated versions from the cellar.
 brew cleanup

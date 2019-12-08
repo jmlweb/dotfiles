@@ -1,10 +1,10 @@
 [user]
-  name = José Manuel Lucas
-  email = josemanuel@jmlweb.es
+	name = José Manuel Lucas
+	email = josemanuel@jmlweb.es
 [github]
   user = jmlweb
 [color]
-  ui = auto
+	ui = auto
 [color "branch"]
   current = yellow reverse
   local = yellow
@@ -21,7 +21,7 @@
 [advice]
   statusHints = false
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore
   quotepath = false
   # line endings
   # force LF during add
@@ -58,3 +58,8 @@
   # Always show a diffstat at the end of a merge
   stat = true
   conflictstyle = diff3
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

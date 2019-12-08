@@ -1,0 +1,70 @@
+{
+  "_comments": [
+    "Valid terminals include: 'Terminal.app' or 'iTerm'",
+    "In the editor value change 'default' to 'nano', 'vi', or another terminal based editor.",
+    "Hosts will also be read from your ~/.ssh/config or /etc/ssh_config file, if available",
+    "For more information on how to configure, please see http://fitztrev.github.io/shuttle/"
+  ],
+  "editor": "default",
+  "launch_at_login": true,
+  "terminal": "iTerm",
+  "iTerm_version": "stable",
+  "default_theme": "Homebrew",
+  "open_in": "tab",
+  "show_ssh_config_hosts": false,
+  "ssh_config_ignore_hosts": [],
+  "ssh_config_ignore_keywords": [],
+  "hosts": [
+    {
+      "System": [
+        {
+          "cmd": "code ~/.zshrc",
+          "inTerminal": "current",
+          "name": "Edit .zshrc"
+        },
+        {
+          "cmd": "~/scripts/copy-ssh-key.sh",
+          "inTerminal": "current",
+          "name": "Copy ssh keys"
+        },
+        {
+          "Hidden files": [
+            {
+              "cmd": "~/scripts/set-hidden-files.sh visible",
+              "inTerminal": "current",
+              "name": "Show hidden files"
+            },
+            {
+              "cmd": "~/scripts/set-hidden-files.sh hidden",
+              "inTerminal": "current",
+              "name": "Hide hidden files"
+            }
+          ]
+        }
+      ],
+      "Sewan": [
+        {
+          "Verdaccio": [
+            {
+              "cmd": "~/.set-verdaccio.sh enable",
+              "inTerminal": "current",
+              "name": "enable"
+            },
+            {
+              "cmd": "~/.set-verdaccio.sh disable",
+              "inTerminal": "current",
+              "name": "disable"
+            }
+          ]
+        }
+      ],
+      "Projects": [
+        {
+          "cmd": "wip jmlweb.es",
+          "name": "jmlweb.es",
+          "inTerminal": "current"
+        }
+      ]
+    }
+  ]
+}
