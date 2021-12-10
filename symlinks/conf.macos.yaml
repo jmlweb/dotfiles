@@ -10,6 +10,7 @@
 
 - link:
     ~/.dotly: os/mac/.dotly
+    ~/Brewfile: os/mac/brew/Brewfile
     ~/bin/bash: /opt/homebrew/bin/bash
     ~/bin/date: /opt/homebrew/bin/gdate
     ~/bin/find: /opt/homebrew/bin/gfind
