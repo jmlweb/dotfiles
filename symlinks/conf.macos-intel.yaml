@@ -11,6 +11,7 @@
 - link:
     ~/.dotly: os/mac/.dotly
     ~/Brewfile: os/mac/brew/Brewfile
+    ~/Library/Application Support/MTMR/items.json: os/mac/MTMR/items.json
     ~/bin/bash: /usr/local/bin/bash
     ~/bin/date: /usr/local/bin/gdate
     ~/bin/find: /usr/local/opt/findutils/bin/gfind
