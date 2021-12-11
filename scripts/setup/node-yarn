@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# If something fails, exit
+set -e
+
+# Install nvm
+curl -o- https://raw.github.com/creationix/nvm/master/install.sh | sh
+
+# Make nvm available without closing the terminal
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Check that nvm works
+command -v nvm
+
+# Install latest lts version of node
+nvm install 'lts/*'
+
+# Install yarn
+npm i -g yarn

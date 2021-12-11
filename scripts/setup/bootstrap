@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Bootstrap a new machine with sensible defaults
+##?
+##? Usage:
+##?    boostrap
+docs::parse "$@"
+
+unameOut="$(uname -s)"
+case "${unameOut}" in
+    Linux*)     machine=linux;;
+    Darwin*)    machine=mac;;
+    *)          machine="UNKNOWN:${unameOut}"
+esac
+
+source "$DOTFILES_PATH/os/${machine}/setup.sh"

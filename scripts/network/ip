@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# From: https://github.com/rgomezcasas/dotfiles/blob/main/scripts/network/ip
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Show the public ip
+#?? 1.0.0
+##?
+##? Usage:
+##?   ip
+docs::parse "$@"
+
+dig +short myip.opendns.com @resolver1.opendns.com

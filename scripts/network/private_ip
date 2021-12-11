@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# From: https://github.com/rgomezcasas/dotfiles/blob/main/scripts/network/private_ip
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Show the private ip
+#?? 1.0.0
+##?
+##? Usage:
+##?   private_ip
+docs::parse "$@"
+
+ipconfig getifaddr en0
