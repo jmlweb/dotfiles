@@ -22,3 +22,4 @@
     ~/bin/sed: /usr/local/opt/gnu-sed/libexec/gnubin/sed
     ~/bin/touch: /usr/local/bin/gtouch
     ~/bin/zsh: /usr/local/bin/zsh
+    /usr/local/share/zsh/site-functions/prompt_spaceship_setup: shell/zsh/.zim/modules/spaceship/spaceship.zsh

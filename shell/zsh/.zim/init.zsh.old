@@ -7,4 +7,3 @@ source /Users/jmlweb/.dotfiles/shell/zsh/.zim/modules/input/init.zsh
 source /Users/jmlweb/.dotfiles/shell/zsh/.zim/modules/completion/init.zsh
 source /Users/jmlweb/.dotfiles/shell/zsh/.zim/modules/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /Users/jmlweb/.dotfiles/shell/zsh/.zim/modules/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /Users/jmlweb/.dotfiles/shell/zsh/.zim/modules/spaceship/spaceship.zsh
