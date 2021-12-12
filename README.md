@@ -1,29 +1,17 @@
 <h1 align="center">
-  .dotfiles created using <a href="https://github.com/CodelyTV/dotly">🌚 dotly</a>
+  jmlweb personal .dotfiles created using <a href="https://github.com/CodelyTV/dotly">🌚 dotly</a>
 </h1>
 
-## Restore your Dotfiles manually
+## Quick start
 
-* Install git
-* Clone your dotfiles repository `git clone [your repository of dotfiles] $HOME/.dotfiles`
-* Go to your dotfiles folder `cd $HOME/.dotfiles`
-* Install git submodules `git submodule update --init --recursive modules/dotly`
-* Install your dotfiles `DOTFILES_PATH="$HOME/.dotfiles" DOTLY_PATH="$DOTFILES_PATH/modules/dotly" "$DOTLY_PATH/bin/dot" self install`
-* Restart your terminal
-* Import your packages `dot package import`
+Check [Installation guide](doc/installation-guide.md)
 
-## Restore your Dotfiles with script
+## Features
 
-Using wget
-```bash
-bash <(wget -qO- https://raw.githubusercontent.com/CodelyTV/dotly/HEAD/restorer)
-```
+### Custom preset for MTMR
 
-Using curl
-```bash
-bash <(curl -s https://raw.githubusercontent.com/CodelyTV/dotly/HEAD/restorer)
-```
+![default touchbar](https://github.com/jmlweb/dotfiles/blob/master/doc/touchbar_default.jpg?raw=true)
 
-You need to know your GitHub username, repository and install ssh key if your repository is private.
+![info touchbar](https://github.com/jmlweb/dotfiles/blob/master/doc/touchbar_info.jpg?raw=true)
 
-It also supports other git repos, but you need to know your git repository url.
+![settings touchbar](https://github.com/jmlweb/dotfiles/blob/master/doc/touchbar_settings.jpg?raw=true)
