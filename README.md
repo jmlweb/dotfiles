@@ -10,8 +10,8 @@ Check [Installation guide](doc/installation-guide.md)
 
 ### Custom preset for MTMR
 
-![default touchbar](https://github.com/jmlweb/dotfiles/blob/master/doc/touchbar_default.jpg?raw=true)
+![default touchbar](https://github.com/jmlweb/dotfiles/raw/main/doc/touchbar_default.jpg)
 
-![info touchbar](https://github.com/jmlweb/dotfiles/blob/master/doc/touchbar_info.jpg?raw=true)
+![info touchbar](https://github.com/jmlweb/dotfiles/raw/main/doc/touchbar_info.jpg)
 
-![settings touchbar](https://github.com/jmlweb/dotfiles/blob/master/doc/touchbar_settings.jpg?raw=true)
+![settings touchbar](https://github.com/jmlweb/dotfiles/raw/main/doc/touchbar_settings.jpg)
