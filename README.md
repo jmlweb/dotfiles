@@ -1,6 +1,4 @@
-<h1 align="center">
-  jmlweb personal .dotfiles created using <a href="https://github.com/CodelyTV/dotly">🌚 dotly</a>
-</h1>
+# jmlweb's personal .dotfiles <small>(created using <a href="https://github.com/CodelyTV/dotly">🌚 dotly</a>)</small>
 
 ## Quick start
 

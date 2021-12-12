@@ -35,3 +35,7 @@
 * Open **Slack**. Authenticate.
 * Open **Spotify**. Authenticate and disable start on login.
 * Open **Zoom**. Authenticate.
+
+### Install nvm, node lts and yarn
+
+* `dot setup node-yarn`
