@@ -3,8 +3,8 @@ alias sudo='sudo '
 
 alias ..="cd .."
 alias ...="cd ../.."
-alias ll="ls -l"
-alias la="ls -la"
+alias ll="exa -l"
+alias la="exa -la"
 alias ~="cd ~"
 
 # Git
@@ -43,7 +43,8 @@ alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 
 # Utils
 alias k='kill -9'
-alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
 alias up='dot package update_all'
+alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias private_ip='ipconfig getifaddr en0'
