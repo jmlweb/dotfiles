@@ -11,10 +11,11 @@
 - link:
     ~/.dotly: os/mac/.dotly
     ~/Brewfile: os/mac/brew/Brewfile
+    ~/.ssh/config: os/mac/.ssh/config
     ~/Library/Application Support/MTMR/items.json: os/mac/MTMR/items.json
     ~/Library/Application Support/Code/User/keybindings.json: editors/code/keybindings.json
     ~/Library/Application Support/Code/User/settings.json: editors/code/settings.json
-    ~/Library/Application Support/Code/User/snippets: editors/code/snippets
+    # ~/Library/Application Support/Code/User/snippets: editors/code/snippets
     ~/bin/bash: /usr/local/bin/bash
     ~/bin/date: /usr/local/bin/gdate
     ~/bin/find: /usr/local/opt/findutils/bin/gfind

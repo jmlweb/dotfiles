@@ -4,7 +4,7 @@
 set -e
 
 # Install nvm
-curl -o- https://raw.github.com/creationix/nvm/master/install.sh | sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 # Make nvm available without closing the terminal
 export NVM_DIR="$HOME/.nvm"
