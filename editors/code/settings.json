@@ -117,5 +117,6 @@
 "workbench.editorAssociations": {
   "*.scpt": "default"
 },
-"eslint.format.enable": true
+"eslint.format.enable": true,
+"vsicons.dontShowNewVersionMessage": true
 }
