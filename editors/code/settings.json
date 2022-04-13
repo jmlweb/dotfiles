@@ -59,26 +59,14 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Palenight Operator",
   "editor.fontSize": 14,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "svelte.language-server.runtime": "/usr/local/bin/node",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.semanticHighlighting.enabled": true,
-  "C_Cpp.updateChannel": "Insiders",
-  "arduino.defaultBaudRate": 9600,
-  "arduino.logLevel": "verbose",
-  "editor.renameOnType": true,
+  "editor.linkedEditing": true,
   "git.autofetch": true,
   "search.smartCase": true,
   "prettier.jsxSingleQuote": false,
-  "solidity.compileUsingRemoteVersion": "v0.5.0+commit.1d4f565a",
-  "aws.profile": "profile:default",
   "prettier.singleQuote": true,
-  "tabnine.experimentalAutoImports": true,
-  "go.useLanguageServer": true,
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.editor.wrapTabs": true,
   "yaml.schemas": {},
   "yaml.customTags": [
@@ -110,13 +98,20 @@
     "!Split",
     "!Split sequence"
   ],
-"redhat.telemetry.enabled": true,
-"settingsSync.ignoredExtensions": [
-  "vsciot-vscode.vscode-arduino"
-],
-"workbench.editorAssociations": {
-  "*.scpt": "default"
-},
-"eslint.format.enable": true,
-"vsicons.dontShowNewVersionMessage": true
+  "redhat.telemetry.enabled": true,
+  "settingsSync.ignoredExtensions": ["vsciot-vscode.vscode-arduino"],
+  "workbench.editorAssociations": {
+    "*.scpt": "default"
+  },
+  "eslint.format.enable": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
 }
